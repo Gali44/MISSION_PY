@@ -72,17 +72,20 @@ print('\nRight stripped string :', s.rstrip())
 sub_str = "lo"
 print('\nFirst occurrence of sub-string :', s.find(sub_str))
 
+#count how many times substring meets in the string
+print('\nCount of sub-string :', s.count(sub_str))
+
 # rfind() - Finds the last occurrence of a substring in a string.
 # example:
 print('\nLast occurrence of sub-string :', s.rfind(sub_str))
 
 # index() - Finds the first occurrence of a substring in a string and raises an exception if the substring is not found.
 # example:
-print('\nCount of sub-string :', s.count(sub_str))
+print('\nIndex of sub-string :', s.index(sub_str))
 
 # rindex() - Finds the last occurrence of a substring in a string and raises an exception if the substring is not found.
 # example:
-print('\nIndex of sub-string :', s.index(sub_str))
+print('\nIndex of sub-string :', s.rindex(sub_str))
 
 # replace() - Replaces all occurrences of a substring in a string with another substring.
 # example:
