@@ -58,20 +58,20 @@ print('\nCapitalized string :', s.capitalize())
 
 # strip() - Removes whitespace from the beginning and end of a string.
 # example:
-print('\nStripped string :', s.strip())
+print('\nStripped string (strip() - Removes whitespace from the beginning and end of a string) :', s.strip()) #
 
 # lstrip() - Removes whitespace from the beginning of a string.
 # example:
-print('\nLeft stripped string :', s.lstrip())
+print('\nLeft stripped string (lstrip() - Removes whitespace from the beginning of a string) :', s.lstrip())
 
 # rstrip() - Removes whitespace from the end of a string.
 # example:
-print('\nRight stripped string :', s.rstrip())
+print('\nRight stripped string (rstrip() - Removes whitespace from the end of a string):', s.rstrip())
 
 # find() - Finds the first occurrence of a substring in a string.
 # example:
 sub_str = "lo"
-print('\nFirst occurrence of sub-string :', s.find(sub_str))
+print('\nFirst occurrence of sub-string="lo" s.find(sub_str)):', s.find(sub_str))
 
 #count how many times substring meets in the string
 print('\nCount of sub-string :', s.count(sub_str))
@@ -86,7 +86,7 @@ print('\nIndex of sub-string :', s.index(sub_str))
 
 # rindex() - Finds the last occurrence of a substring in a string and raises an exception if the substring is not found.
 # example:
-print('\nIndex of sub-string :', s.rindex(sub_str))
+print('\nFinds the last occurrence of a substring in a string and raises an exception if the substring is not found :', s.rindex(sub_str))
 
 # replace() - Replaces all occurrences of a substring in a string with another substring.
 # example:
@@ -96,12 +96,12 @@ print('\nOld string is hello world and replaced string is :', new_str)
 # split() - Splits a string into a list of substrings based on a delimiter.
 # example:
 words = s.split(" ")
-print('\nSplit words are :', words)
+print('\ns.split(" ") Splits a string into a list of substrings based on a delimiter:', words)
 
 # join() - Joins a list of substrings into a single string using a delimiter.
 # example:
 joined_str = "-".join(words)
-print('\nJoined words are :', joined_str)
+print('\n"-".join(words) Joins a list of substrings into a single string:', joined_str)
 
 # format() - Formats a string using a format string.
 # example: 
