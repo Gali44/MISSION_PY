@@ -26,9 +26,10 @@ print("The fifth character of my name is: ", name[4])
 print("The sixth character of my name is: ", name[5])
 
 # slicing of string
+# Anurag
 print("\nslicing of string")
-print(name[0:4])
-print(name[-4:-1])
+print(f"[0:4]: {name[0:4]}")
+print(f"[-4:-1]: {name[-4:-1]}")
 print('My name is :', name[:6], '-', name[-1])
 print('My name is :', name[:6], '-', name[-2])
 
