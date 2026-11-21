@@ -20,9 +20,9 @@ print(squared_numbers)  # Output: [1, 4, 9, 16]
 
 # filter() Function:
 
-#     Purpose: Creates an iterator (or list) containing only elements from an iterable that pass a test provided by a function.
+#     Purpose: Creates an iterator (or list) containing only elements from an iterable that pass a code_testing.py provided by a function.
 #     Syntax: filter(function, iterable)
-#     function: The function to test each element (should return True for elements to keep, False otherwise).
+#     function: The function to code_testing.py each element (should return True for elements to keep, False otherwise).
 #     iterable: The iterable to filter.
 
 # Example:
