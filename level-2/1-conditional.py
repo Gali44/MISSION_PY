@@ -61,3 +61,12 @@ match a:
         print("you entered 3")
     case _ if isinstance(a, int) and (a>3 or a<0):
         print("invalid entry")
+
+#written as :=, it is walrus operator is using as assignment inside of expressions
+if (j:= 4) > 0:
+    print("True")
+# 0r you can usethe same:
+j = 4
+if j > 0:
+    print("True")
+

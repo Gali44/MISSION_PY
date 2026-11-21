@@ -6,11 +6,12 @@ for i in range(10):
     if i == 5:
         break   #stop the loop when i is equal to 5
     print("Value of i :",i)
-    print("\nEnd of Loop")
+    print("\nEnd of First Loop")
 
 for i in range(10):
     if i == 5:
         continue   #skip the rest of code inside the loop for this iteration only
     print("Value of i :",i)
     print("\nEnd of Loop")
-    
+
+

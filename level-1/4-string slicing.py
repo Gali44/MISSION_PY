@@ -36,7 +36,7 @@ print(text[::2])
 text = "BugReport" #extract "Report" using negative indexes
 print(text[-6:])
 text = "Automation"
-print(text[:-8])
+print(text[:-2])
 text = "Automation"
 print(text[-2:])
 

@@ -25,6 +25,8 @@ my_set = set([1, 2, 2, 4])  # Output: {1, 2, 4}
 # - Adding elements:
 my_set.add(5)  # Adds 5 to the set
 
+print(len(my_set))
+
 # - Removing elements:
 my_set.remove(2)  # Removes 2 from the set (raises an error if not found)
 my_set.discard(3)  # Removes 3 if present, otherwise does nothing
